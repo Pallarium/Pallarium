@@ -7,7 +7,7 @@
 [![Download for Windows](https://img.shields.io/badge/Download_for_Windows-D9A441?style=for-the-badge&logo=windows&logoColor=black)](https://pallarium.org)
 [![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=white)](https://pallarium.org)
 
-![version](https://img.shields.io/badge/version-1.5.94-D9A441?style=flat-square)
+![version](https://img.shields.io/badge/version-1.5.96-D9A441?style=flat-square)
 ![Free forever](https://img.shields.io/badge/free-forever-22c55e?style=flat-square)
 ![Runs on your PC](https://img.shields.io/badge/runs-on_your_PC-3b82f6?style=flat-square)
 ![No account](https://img.shields.io/badge/no-account-a855f7?style=flat-square)
@@ -15,7 +15,7 @@
 ![Models](https://img.shields.io/badge/models-Claude_%C2%B7_GPT_%C2%B7_Gemini_%C2%B7_Grok_%C2%B7_Ollama-1b1b21?style=flat-square)
 
 **[See it work](#see-it-work)** &nbsp;·&nbsp;
-**[What's new](#new-in-1594)** &nbsp;·&nbsp;
+**[What's new](#new-in-1596)** &nbsp;·&nbsp;
 **[Every model](#one-window-every-model)** &nbsp;·&nbsp;
 **[How it thinks](#the-living-systems)** &nbsp;·&nbsp;
 **[Everything else](#everything-else)** &nbsp;·&nbsp;
@@ -90,7 +90,18 @@ it keeps them between sessions, so you're not re-explaining yourself every morni
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-## New in 1.5.94
+## New in 1.5.96
+
+### 🎙️ Voice that knows who is talking
+
+Six people in a room used to be "Guest 1" through "Guest 6". Now say *"I'm Sam"* once and
+your name sticks to your messages from then on. Short questions no longer get chopped off
+either: a normal thinking pause is a pause, not the end of your sentence.
+
+### 🌐 Browser control that stops dropping out
+
+Chrome no longer loses the agent mid task. One shared debugger session per tab keeps
+browser automation, game control and voice steady through long sessions.
 
 ### ↺ Rewind — break anything, undo everything
 
@@ -112,12 +123,6 @@ Train a small local model on it and it shows up in your model list like any othe
 > **Heads up:** small local models learn the *shape* of your workflow fast, but they need plenty of
 > examples before they make good decisions on their own. Leave Training on for a few days
 > of real work before you judge the result.
-
-### 🎙️ A voice that waits for you
-
-Talk naturally. Pallarium no longer cuts you off in the middle of a thought — it waits
-until you've actually finished. And it knows who's speaking: say *"I'm Sam"* once and
-your name shows up on your messages from then on.
 
 <img src="assets/divider.svg" alt="" width="100%">
 
