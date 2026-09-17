@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 240" width="430" height="240" role="img" aria-label="Pallarium writes the code and shows you the app running">
+<title>Pallarium writes the code and shows you the app running</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.d{animation-duration:8s;animation-iteration-count:infinite;animation-fill-mode:both}
+@keyframes cl0{0%,3%{transform:scaleX(0)}6%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl0{transform-box:fill-box;transform-origin:0 50%;animation-name:cl0}
+@keyframes cl1{0%,7.5%{transform:scaleX(0)}10.5%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl1{transform-box:fill-box;transform-origin:0 50%;animation-name:cl1}
+@keyframes cl2{0%,12%{transform:scaleX(0)}15%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl2{transform-box:fill-box;transform-origin:0 50%;animation-name:cl2}
+@keyframes cl3{0%,16.5%{transform:scaleX(0)}19.5%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl3{transform-box:fill-box;transform-origin:0 50%;animation-name:cl3}
+@keyframes cl4{0%,21%{transform:scaleX(0)}24%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl4{transform-box:fill-box;transform-origin:0 50%;animation-name:cl4}
+@keyframes cl5{0%,25.5%{transform:scaleX(0)}28.5%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl5{transform-box:fill-box;transform-origin:0 50%;animation-name:cl5}
+@keyframes cl6{0%,30%{transform:scaleX(0)}33%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl6{transform-box:fill-box;transform-origin:0 50%;animation-name:cl6}
+@keyframes cl7{0%,34.5%{transform:scaleX(0)}37.5%,93%{transform:scaleX(1)}97%,100%{transform:scaleX(0)}}
+.cl7{transform-box:fill-box;transform-origin:0 50%;animation-name:cl7}
+.arr{animation:arr 1.4s ease-in-out infinite}
+@keyframes arr{0%,100%{transform:translateX(0);opacity:.4}50%{transform:translateX(3px);opacity:1}}
+@keyframes app{0%,44%{opacity:0;transform:translateY(8px)}46.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.app{animation-name:app}
+.ring{stroke-dasharray:100;animation:ring 3s linear infinite}
+@keyframes ring{from{stroke-dashoffset:100}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="430" height="240" rx="16" fill="#0c0c0e"/><rect x=".5" y=".5" width="429" height="239" rx="16" fill="none" stroke="#2b2b32"/>
+<rect x="16" y="16" width="190" height="208" rx="10" fill="#1b1b21" stroke="#2b2b32"/>
+<text class="mono" x="28" y="36" font-size="11" fill="#a09a90">index.html</text>
+<line x1="16" y1="45.5" x2="206" y2="45.5" stroke="#2b2b32"/>
+<rect class="d cl0" x="28" y="60" width="96" height="7" rx="3.5" fill="#D9A441"/>
+<rect class="d cl1" x="42" y="80" width="128" height="7" rx="3.5" fill="#7aa2f7"/>
+<rect class="d cl2" x="42" y="100" width="70" height="7" rx="3.5" fill="#72d39a"/>
+<rect class="d cl3" x="56" y="120" width="110" height="7" rx="3.5" fill="#a09a90"/>
+<rect class="d cl4" x="56" y="140" width="84" height="7" rx="3.5" fill="#F4CF7E"/>
+<rect class="d cl5" x="42" y="160" width="118" height="7" rx="3.5" fill="#7aa2f7"/>
+<rect class="d cl6" x="28" y="180" width="60" height="7" rx="3.5" fill="#a09a90"/>
+<rect class="d cl7" x="28" y="200" width="104" height="7" rx="3.5" fill="#72d39a"/>
+<path class="arr" d="M209 114l6 6-6 6" fill="none" stroke="#D9A441" stroke-width="2" stroke-linecap="round"/>
+<rect x="222" y="16" width="192" height="208" rx="10" fill="#0f0f12" stroke="#2b2b32"/>
+<circle cx="234" cy="29" r="3.5" fill="#ff5f57" opacity=".8"/>
+<circle cx="245" cy="29" r="3.5" fill="#febc2e" opacity=".8"/>
+<circle cx="256" cy="29" r="3.5" fill="#28c840" opacity=".8"/>
+<defs><linearGradient id="ap" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4CF7E"/><stop offset="1" stop-color="#d9743f"/></linearGradient></defs>
+<g class="d app"><rect x="234" y="44" width="168" height="72" rx="9" fill="url(#ap)"/><text x="248" y="76" font-size="19" font-weight="800" fill="#1a1206">Eggzy</text><text x="248" y="95" font-size="10.5" fill="#3a2610">perfect eggs, every time</text><rect x="234" y="128" width="84" height="28" rx="14" fill="#D9A441"/><text x="276" y="146.5" text-anchor="middle" font-size="12" font-weight="700" fill="#1a1206">Start</text><circle cx="378" cy="142" r="15" fill="none" stroke="#2b2b32" stroke-width="3"/><circle class="ring" cx="378" cy="142" r="15" fill="none" stroke="#F4CF7E" stroke-width="3" stroke-linecap="round" pathLength="100" transform="rotate(-90 378 142)"/><rect x="234" y="170" width="168" height="8" rx="4" fill="#2b2b32"/><rect x="234" y="186" width="120" height="8" rx="4" fill="#2b2b32"/><rect x="234" y="202" width="146" height="8" rx="4" fill="#2b2b32"/></g>
+</svg>

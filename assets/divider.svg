@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 12" width="880" height="12" role="img" aria-label="">
+<title></title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.glow{animation:glide 6s ease-in-out infinite}
+@keyframes glide{from{transform:translateX(-220px)}to{transform:translateX(1100px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#D9A441" stop-opacity="0"/><stop offset=".5" stop-color="#D9A441" stop-opacity=".55"/><stop offset="1" stop-color="#D9A441" stop-opacity="0"/></linearGradient>
+<linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#F8DC9C" stop-opacity="0"/><stop offset=".5" stop-color="#FBE7B8"/><stop offset="1" stop-color="#F8DC9C" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect x="0" y="5" width="880" height="2"/></clipPath>
+</defs>
+<rect x="0" y="5" width="880" height="2" fill="url(#ln)"/>
+<g clip-path="url(#c)"><rect class="glow" x="0" y="5" width="180" height="2" fill="url(#gl)"/></g>
+</svg>

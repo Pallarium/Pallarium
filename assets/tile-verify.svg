@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 240" width="430" height="240" role="img" aria-label="Pallarium plays what it built and checks it before saying done">
+<title>Pallarium plays what it built and checks it before saying done</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.d{animation-duration:8s;animation-iteration-count:infinite;animation-fill-mode:both}
+.scan{animation:scan 2.6s ease-in-out infinite}
+@keyframes scan{0%{transform:translateY(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateY(204px);opacity:0}}
+.bob{transform-box:fill-box;transform-origin:center;animation:bob 1.2s ease-in-out infinite}
+@keyframes bob{0%,100%{transform:translateY(5px)}50%{transform:translateY(-7px)}}
+@keyframes vk0{0%,10%{opacity:0;transform:translateY(6px)}12.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.vk0{animation-name:vk0}
+@keyframes vk1{0%,27%{opacity:0;transform:translateY(6px)}29.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.vk1{animation-name:vk1}
+@keyframes vk2{0%,44%{opacity:0;transform:translateY(6px)}46.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.vk2{animation-name:vk2}
+@keyframes vk3{0%,61%{opacity:0;transform:translateY(6px)}63.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.vk3{animation-name:vk3}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="430" height="240" rx="16" fill="#0c0c0e"/><rect x=".5" y=".5" width="429" height="239" rx="16" fill="none" stroke="#2b2b32"/>
+<defs><linearGradient id="vs" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141d38"/><stop offset="1" stop-color="#3a2940"/></linearGradient><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4CF7E" stop-opacity="0"/><stop offset="1" stop-color="#F4CF7E" stop-opacity=".45"/></linearGradient><clipPath id="vc"><rect x="16" y="16" width="200" height="208" rx="10"/></clipPath></defs>
+<g clip-path="url(#vc)">
+<rect x="16" y="16" width="200" height="208" fill="url(#vs)"/>
+<rect x="60" y="16" width="30" height="62" fill="#3faa69"/><rect x="56" y="70" width="38" height="11" rx="2" fill="#57c784"/>
+<rect x="60" y="150" width="30" height="74" fill="#3faa69"/><rect x="56" y="146" width="38" height="11" rx="2" fill="#57c784"/>
+<rect x="160" y="16" width="30" height="96" fill="#3faa69"/><rect x="156" y="104" width="38" height="11" rx="2" fill="#57c784"/>
+<rect x="160" y="182" width="30" height="42" fill="#3faa69"/><rect x="156" y="178" width="38" height="11" rx="2" fill="#57c784"/>
+<g transform="translate(125 128)"><g class="bob"><ellipse rx="12" ry="9.5" fill="#f6c945" stroke="#b8871f"/><circle cx="5" cy="-3" r="3" fill="#fff"/><circle cx="6" cy="-3" r="1.5" fill="#15151a"/><path d="M9.5 0.5l7 2-7 2.2z" fill="#f08a3c"/></g></g>
+<g class="scan"><rect x="16" y="-14" width="200" height="30" fill="url(#sg)"/><rect x="16" y="15" width="200" height="1.6" fill="#F4CF7E"/></g>
+</g>
+<path d="M101 104 v9 M101 104 h9" stroke="#F4CF7E" stroke-width="2" stroke-linecap="round"/>
+<path d="M149 104 v9 M149 104 h-9" stroke="#F4CF7E" stroke-width="2" stroke-linecap="round"/>
+<path d="M101 152 v-9 M101 152 h9" stroke="#F4CF7E" stroke-width="2" stroke-linecap="round"/>
+<path d="M149 152 v-9 M149 152 h-9" stroke="#F4CF7E" stroke-width="2" stroke-linecap="round"/>
+<text x="234" y="40" font-size="13" font-weight="700" fill="#F0EBE4">Checking its work</text>
+<g class="d vk0"><rect x="232" y="58" width="182" height="32" rx="9" fill="#1b1b21" stroke="#2b2b32"/><circle cx="250" cy="74" r="8" fill="rgba(114,211,154,.16)"/><path d="M246.2 74.2 l2.6 2.6 5 -5.2" fill="none" stroke="#72d39a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="266" y="78" font-size="12" font-weight="600" fill="#F0EBE4">console</text><text x="406" y="78" text-anchor="end" font-size="11" fill="#a09a90">0 errors</text></g>
+<g class="d vk1"><rect x="232" y="98" width="182" height="32" rx="9" fill="#1b1b21" stroke="#2b2b32"/><circle cx="250" cy="114" r="8" fill="rgba(114,211,154,.16)"/><path d="M246.2 114.2 l2.6 2.6 5 -5.2" fill="none" stroke="#72d39a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="266" y="118" font-size="12" font-weight="600" fill="#F0EBE4">controls</text><text x="406" y="118" text-anchor="end" font-size="11" fill="#a09a90">respond</text></g>
+<g class="d vk2"><rect x="232" y="138" width="182" height="32" rx="9" fill="#1b1b21" stroke="#2b2b32"/><circle cx="250" cy="154" r="8" fill="rgba(114,211,154,.16)"/><path d="M246.2 154.2 l2.6 2.6 5 -5.2" fill="none" stroke="#72d39a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="266" y="158" font-size="12" font-weight="600" fill="#F0EBE4">layout</text><text x="406" y="158" text-anchor="end" font-size="11" fill="#a09a90">fits the screen</text></g>
+<g class="d vk3"><rect x="232" y="178" width="182" height="32" rx="9" fill="#1b1b21" stroke="#2b2b32"/><circle cx="250" cy="194" r="8" fill="rgba(114,211,154,.16)"/><path d="M246.2 194.2 l2.6 2.6 5 -5.2" fill="none" stroke="#72d39a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="266" y="198" font-size="12" font-weight="600" fill="#F0EBE4">looks</text><text x="406" y="198" text-anchor="end" font-size="11" fill="#a09a90">5 / 5</text></g>
+</svg>

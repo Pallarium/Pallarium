@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="Rewind takes a project back to any earlier restore point">
+<title>Rewind takes a project back to any earlier restore point</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.d{animation-duration:10s;animation-iteration-count:infinite;animation-fill-mode:both}
+.prog{transform-box:fill-box;transform-origin:0 50%;animation-name:prog}
+@keyframes prog{0%{transform:scaleX(0)}45%{transform:scaleX(1)}62%{transform:scaleX(1)}72%{transform:scaleX(0)}100%{transform:scaleX(0)}}
+.arc{stroke-dasharray:900;animation-name:arc}
+@keyframes arc{0%,48%{stroke-dashoffset:900;opacity:1}62%{stroke-dashoffset:0;opacity:1}80%{stroke-dashoffset:0;opacity:0}100%{stroke-dashoffset:900;opacity:0}}
+.ah{animation-name:ah}
+@keyframes ah{0%,60%{opacity:0}63%,78%{opacity:1}82%,100%{opacity:0}}
+.arcl{animation-name:arcl}
+@keyframes arcl{0%,50%{opacity:0}56%,78%{opacity:1}84%,100%{opacity:0}}
+.rest{animation-name:rest}
+@keyframes rest{0%,72%{opacity:0;transform:translateY(5px)}76%,94%{opacity:1;transform:translateY(0)}98%,100%{opacity:0}}
+.ping{transform-box:fill-box;transform-origin:center;animation-name:ping}
+@keyframes ping{0%,72%{opacity:0;transform:scale(1)}73%{opacity:.9;transform:scale(1)}88%,100%{opacity:0;transform:scale(2.8)}}
+@keyframes pt1{0%,11.25%{opacity:0}12.45%,62%{opacity:1}70%,100%{opacity:0}}
+.pt1{animation-name:pt1}
+@keyframes pt2{0%,22.5%{opacity:0}23.7%,62%{opacity:1}70%,100%{opacity:0}}
+.pt2{animation-name:pt2}
+@keyframes pt3{0%,33.75%{opacity:0}34.95%,62%{opacity:1}70%,100%{opacity:0}}
+.pt3{animation-name:pt3}
+@keyframes pt4{0%,45%{opacity:0}46.2%,62%{opacity:1}70%,100%{opacity:0}}
+.pt4{animation-name:pt4}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="880" height="250" rx="20" fill="#0c0c0e"/><rect x=".5" y=".5" width="879" height="249" rx="20" fill="none" stroke="#2b2b32"/>
+<line x1="80" y1="132" x2="800" y2="132" stroke="#2b2b32" stroke-width="4" stroke-linecap="round"/>
+<rect class="d prog" x="80" y="130" width="720" height="4" rx="2" fill="#D9A441"/>
+<path class="d arc" d="M800 116 C650 22 230 22 80 116" fill="none" stroke="#F4CF7E" stroke-width="2.6" stroke-linecap="round"/>
+<path class="d ah" d="M80.0 116.0 L87.6 103.6 L94.5 114.6 z" fill="#F4CF7E"/>
+<g class="d arcl"><g transform="translate(386 15)"><path d="M2.8 2.8v4h4" fill="none" stroke="#F4CF7E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.2 6.8A5.6 5.6 0 1 1 4.6 12" fill="none" stroke="#F4CF7E" stroke-width="1.6" stroke-linecap="round"/></g><text x="410" y="28" font-size="14" font-weight="700" fill="#F4CF7E">Rewind</text></g>
+<text x="80" y="104" text-anchor="middle" font-size="12.5" font-weight="500" fill="#F0EBE4">flappy bird</text>
+<text class="mono" x="80" y="165" text-anchor="middle" font-size="11" fill="#6f6a62">10:01</text>
+<circle cx="80" cy="132" r="9" fill="#1b1b21" stroke="#2b2b32" stroke-width="2"/>
+<circle cx="80" cy="132" r="9" fill="#D9A441"/>
+<circle class="d ping" cx="80" cy="132" r="9" fill="none" stroke="#72d39a" stroke-width="2"/>
+<text x="260" y="104" text-anchor="middle" font-size="12.5" font-weight="500" fill="#F0EBE4">red bird</text>
+<text class="mono" x="260" y="165" text-anchor="middle" font-size="11" fill="#6f6a62">10:03</text>
+<circle cx="260" cy="132" r="9" fill="#1b1b21" stroke="#2b2b32" stroke-width="2"/>
+<circle class="d pt1" cx="260" cy="132" r="9" fill="#D9A441"/>
+<text x="440" y="104" text-anchor="middle" font-size="12.5" font-weight="500" fill="#F0EBE4">night sky</text>
+<text class="mono" x="440" y="165" text-anchor="middle" font-size="11" fill="#6f6a62">10:04</text>
+<circle cx="440" cy="132" r="9" fill="#1b1b21" stroke="#2b2b32" stroke-width="2"/>
+<circle class="d pt2" cx="440" cy="132" r="9" fill="#D9A441"/>
+<text x="620" y="104" text-anchor="middle" font-size="12.5" font-weight="500" fill="#F0EBE4">READY title</text>
+<text class="mono" x="620" y="165" text-anchor="middle" font-size="11" fill="#6f6a62">10:05</text>
+<circle cx="620" cy="132" r="9" fill="#1b1b21" stroke="#2b2b32" stroke-width="2"/>
+<circle class="d pt3" cx="620" cy="132" r="9" fill="#D9A441"/>
+<text x="800" y="104" text-anchor="middle" font-size="12.5" font-weight="500" fill="#e36d5d">broke it</text>
+<text class="mono" x="800" y="165" text-anchor="middle" font-size="11" fill="#6f6a62">10:06</text>
+<circle cx="800" cy="132" r="9" fill="#1b1b21" stroke="#2b2b32" stroke-width="2"/>
+<circle class="d pt4" cx="800" cy="132" r="9" fill="#e36d5d"/>
+<g class="d rest"><rect x="38" y="178" width="84" height="24" rx="12" fill="rgba(114,211,154,.14)" stroke="rgba(114,211,154,.5)"/><text x="80" y="194" text-anchor="middle" font-size="11.5" font-weight="600" fill="#72d39a">restored</text></g>
+<text x="440" y="232" text-anchor="middle" font-size="12" fill="#a09a90">Every change saves a restore point. One click takes the whole project back — and the rewind can be undone too.</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="Pallarium. It only takes one step to make your dream.">
+<title>Pallarium. It only takes one step to make your dream.</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.shine{animation:shine 5.5s ease-in-out infinite}
+@keyframes shine{0%{transform:translateX(-320px)}55%,100%{transform:translateX(1180px)}}
+.beat{transform-box:fill-box;transform-origin:center;animation:beat 2.4s ease-in-out infinite}
+@keyframes beat{0%,100%{transform:scale(1)}12%{transform:scale(1.08)}24%{transform:scale(.97)}36%{transform:scale(1.04)}52%{transform:scale(1)}}
+.halo{transform-box:fill-box;transform-origin:center;animation:halo 2.4s ease-in-out infinite}
+@keyframes halo{0%,100%{opacity:.35;transform:scale(1)}15%{opacity:.8;transform:scale(1.15)}52%{opacity:.4;transform:scale(1)}}
+.t1{animation:t1 8s ease-out infinite}.t2{animation:t2 8s ease-out infinite}
+@keyframes t1{0%,5%{opacity:0;transform:translateY(8px)}14%,90%{opacity:1;transform:translateY(0)}97%,100%{opacity:0}}
+@keyframes t2{0%,16%{opacity:0;transform:translateY(8px)}27%,90%{opacity:1;transform:translateY(0)}97%,100%{opacity:0}}
+.ember{animation:rise linear infinite}
+@keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.95}100%{transform:translateY(-200px);opacity:0}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<linearGradient id="gd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F8DC9C"/><stop offset=".45" stop-color="#E8B75C"/><stop offset="1" stop-color="#B07A26"/></linearGradient>
+<linearGradient id="gw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#E0AB4E"/><stop offset=".5" stop-color="#FBE2A6"/><stop offset="1" stop-color="#C0872B"/></linearGradient>
+<linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="hl"><stop offset="0" stop-color="#D9A441" stop-opacity=".6"/><stop offset="1" stop-color="#D9A441" stop-opacity="0"/></radialGradient>
+<radialGradient id="vig" cx=".5" cy="1.15" r=".85"><stop offset="0" stop-color="#4a3310" stop-opacity=".7"/><stop offset="1" stop-color="#0c0c0e" stop-opacity="0"/></radialGradient>
+<clipPath id="word"><text x="448" y="160" text-anchor="middle" font-size="62" font-weight="700" letter-spacing="16" style="font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">PALLARIUM</text></clipPath>
+<clipPath id="crd"><rect width="880" height="250" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#crd)">
+<rect width="880" height="250" rx="22" fill="#0c0c0e"/><rect x=".5" y=".5" width="879" height="249" rx="22" fill="none" stroke="#2b2b32"/>
+<rect width="880" height="250" fill="url(#vig)"/>
+<circle class="ember" cx="295.5" cy="220.6" r="1.8" fill="#F4CF7E" style="animation-duration:4.86s;animation-delay:-5.09s"/>
+<circle class="ember" cx="329.9" cy="217.1" r="1.6" fill="#F4CF7E" style="animation-duration:4.69s;animation-delay:-4.12s"/>
+<circle class="ember" cx="87.3" cy="218.4" r="1.4" fill="#F4CF7E" style="animation-duration:8.63s;animation-delay:-1.18s"/>
+<circle class="ember" cx="213.1" cy="238.2" r="2.2" fill="#F4CF7E" style="animation-duration:7.39s;animation-delay:-3.77s"/>
+<circle class="ember" cx="830.5" cy="216.7" r="2.1" fill="#F4CF7E" style="animation-duration:5.95s;animation-delay:-1.37s"/>
+<circle class="ember" cx="126.6" cy="226.4" r="2.0" fill="#F4CF7E" style="animation-duration:5.40s;animation-delay:-5.53s"/>
+<circle class="ember" cx="553.9" cy="228.8" r="1.6" fill="#F4CF7E" style="animation-duration:4.81s;animation-delay:-0.57s"/>
+<circle class="ember" cx="198.9" cy="240.2" r="1.4" fill="#F4CF7E" style="animation-duration:6.07s;animation-delay:-5.56s"/>
+<circle class="ember" cx="401.6" cy="226.1" r="2.0" fill="#F4CF7E" style="animation-duration:7.99s;animation-delay:-2.32s"/>
+<circle class="ember" cx="501.0" cy="234.4" r="2.1" fill="#F4CF7E" style="animation-duration:8.15s;animation-delay:-2.74s"/>
+<circle class="ember" cx="833.7" cy="219.4" r="1.4" fill="#F4CF7E" style="animation-duration:8.29s;animation-delay:-1.44s"/>
+<circle class="ember" cx="430.9" cy="216.5" r="1.8" fill="#F4CF7E" style="animation-duration:8.32s;animation-delay:-5.44s"/>
+<circle class="ember" cx="747.9" cy="226.6" r="1.8" fill="#F4CF7E" style="animation-duration:7.47s;animation-delay:-5.51s"/>
+<circle class="ember" cx="404.1" cy="246.1" r="2.2" fill="#F4CF7E" style="animation-duration:6.87s;animation-delay:-6.31s"/>
+<circle class="ember" cx="79.7" cy="241.0" r="1.8" fill="#F4CF7E" style="animation-duration:9.47s;animation-delay:-7.81s"/>
+<circle class="ember" cx="263.4" cy="229.3" r="1.8" fill="#F4CF7E" style="animation-duration:4.61s;animation-delay:-4.39s"/>
+<circle class="ember" cx="167.8" cy="219.3" r="0.9" fill="#F4CF7E" style="animation-duration:8.34s;animation-delay:-1.23s"/>
+<circle class="ember" cx="233.0" cy="229.5" r="2.1" fill="#F4CF7E" style="animation-duration:4.90s;animation-delay:-4.27s"/>
+<circle class="ember" cx="480.5" cy="247.7" r="2.0" fill="#F4CF7E" style="animation-duration:8.82s;animation-delay:-2.65s"/>
+<circle class="ember" cx="370.5" cy="228.3" r="2.1" fill="#F4CF7E" style="animation-duration:9.29s;animation-delay:-1.43s"/>
+<circle class="ember" cx="174.5" cy="223.6" r="1.2" fill="#F4CF7E" style="animation-duration:6.92s;animation-delay:-5.60s"/>
+<circle class="ember" cx="245.5" cy="215.2" r="1.4" fill="#F4CF7E" style="animation-duration:6.35s;animation-delay:-5.38s"/>
+<circle class="ember" cx="811.5" cy="240.5" r="1.6" fill="#F4CF7E" style="animation-duration:7.59s;animation-delay:-6.42s"/>
+<circle class="ember" cx="74.3" cy="248.3" r="2.0" fill="#F4CF7E" style="animation-duration:8.87s;animation-delay:-7.58s"/>
+<circle class="ember" cx="351.8" cy="229.8" r="1.0" fill="#F4CF7E" style="animation-duration:7.67s;animation-delay:-0.59s"/>
+<circle class="ember" cx="85.2" cy="222.7" r="1.0" fill="#F4CF7E" style="animation-duration:6.20s;animation-delay:-0.50s"/>
+</g>
+<g transform="translate(440 54)"><ellipse class="halo" cx="0" cy="0" rx="62" ry="48" fill="url(#hl)"/></g>
+<g transform="translate(412 24) scale(.56)"><path class="beat" d="M50 4 C31 28 6 42 6 61 C6 77 19 87 33 87 C41 87 46 83 48 79 L43 97 L57 97 L52 79 C54 83 59 87 67 87 C81 87 94 77 94 61 C94 42 69 28 50 4 Z" fill="url(#gd)" stroke="#F8DC9C" stroke-width="2.5"/></g>
+<g clip-path="url(#word)">
+<rect x="0" y="100" width="880" height="72" fill="url(#gw)"/>
+<rect class="shine" x="0" y="100" width="230" height="72" fill="url(#sh)"/>
+</g>
+<g class="t1"><text x="440" y="202" text-anchor="middle" font-size="19" font-weight="500" fill="#F0EBE4">It only takes one step to make your dream.</text></g>
+<g class="t2"><text x="440" y="229" text-anchor="middle" font-size="15" font-style="italic" fill="#a09a90">But you have to be the one to walk through the door.</text></g>
+</svg>

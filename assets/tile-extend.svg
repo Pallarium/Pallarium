@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 240" width="430" height="240" role="img" aria-label="Ask for a tool and Pallarium adds it to its own interface live">
+<title>Ask for a tool and Pallarium adds it to its own interface live</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.d{animation-duration:8s;animation-iteration-count:infinite;animation-fill-mode:both}
+.pop{transform-box:fill-box;transform-origin:center;animation-name:pop}
+@keyframes pop{0%,34%{opacity:0;transform:scale(.86)}40%{opacity:1;transform:scale(1.03)}44%,93%{opacity:1;transform:scale(1)}97%,100%{opacity:0;transform:scale(1)}}
+.glow{animation-name:glow}
+@keyframes glow{0%,38%{opacity:0}44%{opacity:1}70%,100%{opacity:0}}
+.ring{stroke-dasharray:100;animation:ring 4s linear infinite}
+@keyframes ring{from{stroke-dashoffset:0}to{stroke-dashoffset:100}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="430" height="240" rx="16" fill="#0c0c0e"/><rect x=".5" y=".5" width="429" height="239" rx="16" fill="none" stroke="#2b2b32"/>
+<rect x="16" y="16" width="398" height="208" rx="10" fill="#1b1b21" stroke="#2b2b32"/>
+<line x1="72.5" y1="16" x2="72.5" y2="224" stroke="#2b2b32"/>
+<rect x="32" y="30" width="24" height="24" rx="7" fill="#2b2b32"/>
+<rect x="32" y="66" width="24" height="24" rx="7" fill="#2b2b32"/>
+<rect x="32" y="102" width="24" height="24" rx="7" fill="#2b2b32"/>
+<rect x="32" y="138" width="24" height="24" rx="7" fill="#2b2b32"/>
+<rect x="32" y="174" width="24" height="24" rx="7" fill="#2b2b32"/>
+<rect x="32" y="30" width="24" height="24" rx="7" fill="rgba(217,164,65,.35)"/>
+<rect x="88" y="28" width="310" height="30" rx="15" fill="#0f0f12" stroke="#2b2b32"/>
+<clipPath id="et"><rect x="100" y="30" width="200" height="26"><animate attributeName="width" dur="8s" repeatCount="indefinite" values="0;0;200;200" keyTimes="0;.04;.24;1"/></rect></clipPath>
+<g clip-path="url(#et)"><text x="104" y="47.5" font-size="12" fill="#F0EBE4">add a focus timer</text></g>
+<rect x="370" y="33" width="22" height="20" rx="6" fill="#D9A441"/>
+<rect x="88" y="72" width="98" height="58" rx="9" fill="#0f0f12" stroke="#2b2b32"/>
+<rect x="100" y="84" width="22" height="16" rx="4" fill="#2b2b32"/>
+<text x="100" y="118" font-size="11" fill="#a09a90">Notes</text>
+<rect x="194" y="72" width="98" height="58" rx="9" fill="#0f0f12" stroke="#2b2b32"/>
+<rect x="206" y="84" width="22" height="16" rx="4" fill="#2b2b32"/>
+<text x="206" y="118" font-size="11" fill="#a09a90">Colour lab</text>
+<rect x="300" y="72" width="98" height="58" rx="9" fill="#0f0f12" stroke="#2b2b32"/>
+<rect x="312" y="84" width="22" height="16" rx="4" fill="#2b2b32"/>
+<text x="312" y="118" font-size="11" fill="#a09a90">Weather</text>
+<g class="d pop"><rect class="d glow" x="84" y="140" width="318" height="74" rx="13" fill="none" stroke="#F4CF7E" stroke-width="3" stroke-opacity=".5"/><rect x="88" y="144" width="310" height="66" rx="10" fill="rgba(217,164,65,.10)" stroke="#D9A441" stroke-width="1.5"/><text x="104" y="170" font-size="13" font-weight="700" fill="#F0EBE4">Focus timer</text><text x="104" y="188" font-size="11" fill="#a09a90">added live · no restart</text><circle cx="350" cy="177" r="20" fill="none" stroke="#2b2b32" stroke-width="4"/><circle class="ring" cx="350" cy="177" r="20" fill="none" stroke="#F4CF7E" stroke-width="4" stroke-linecap="round" pathLength="100" transform="rotate(-90 350 177)"/><text class="mono" x="350" y="181" text-anchor="middle" font-size="10" fill="#F0EBE4">25:00</text></g>
+</svg>

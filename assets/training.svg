@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="Training Data Mode turns your own work into a model you can pick">
+<title>Training Data Mode turns your own work into a model you can pick</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.d{animation-duration:9s;animation-iteration-count:infinite;animation-fill-mode:both}
+.knob{animation-name:knob}
+@keyframes knob{0%,4%{transform:translateX(0)}7%,94%{transform:translateX(22px)}98%,100%{transform:translateX(0)}}
+.tog{animation-name:tog}
+@keyframes tog{0%,4%{opacity:0}7%,94%{opacity:1}98%,100%{opacity:0}}
+.typing circle{animation:blink 1s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes st0{0%,4%{opacity:0}7%,94%{opacity:1}98%,100%{opacity:0}}
+.st0{animation-name:st0}
+@keyframes st1{0%,24%{opacity:0}27%,94%{opacity:1}98%,100%{opacity:0}}
+.st1{animation-name:st1}
+@keyframes st2{0%,46%{opacity:0}49%,94%{opacity:1}98%,100%{opacity:0}}
+.st2{animation-name:st2}
+@keyframes bar0{0%,46%{transform:scaleX(0)}50%,94%{transform:scaleX(1)}98%,100%{transform:scaleX(0)}}
+.bar0{transform-box:fill-box;transform-origin:0 50%;animation-name:bar0}
+@keyframes bar1{0%,50%{transform:scaleX(0)}54%,94%{transform:scaleX(1)}98%,100%{transform:scaleX(0)}}
+.bar1{transform-box:fill-box;transform-origin:0 50%;animation-name:bar1}
+@keyframes bar2{0%,54%{transform:scaleX(0)}58%,94%{transform:scaleX(1)}98%,100%{transform:scaleX(0)}}
+.bar2{transform-box:fill-box;transform-origin:0 50%;animation-name:bar2}
+@keyframes st3{0%,68%{opacity:0}71%,94%{opacity:1}98%,100%{opacity:0}}
+.st3{animation-name:st3}
+@keyframes chip{0%,74%{opacity:0;transform:translateY(6px)}76.5%,94%{opacity:1;transform:translateY(0)}98%,100%{opacity:0;transform:translateY(0)}}
+.chip{animation-name:chip}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="880" height="250" rx="20" fill="#0c0c0e"/><rect x=".5" y=".5" width="879" height="249" rx="20" fill="none" stroke="#2b2b32"/>
+<line x1="162" y1="106" x2="278" y2="106" stroke="#2b2b32" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M279 106 l-7 -4.5 v9z" fill="#2b2b32"/>
+<circle r="4" fill="#F4CF7E" opacity="0"><animateMotion dur="9s" repeatCount="indefinite" path="M162 106 L278 106" keyPoints="0;0;1;1" keyTimes="0;0.070;0.240;1" calcMode="linear"/><animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.070;0.080;0.230;0.240;1"/></circle>
+<line x1="382" y1="106" x2="498" y2="106" stroke="#2b2b32" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M499 106 l-7 -4.5 v9z" fill="#2b2b32"/>
+<circle r="4" fill="#F4CF7E" opacity="0"><animateMotion dur="9s" repeatCount="indefinite" path="M382 106 L498 106" keyPoints="0;0;1;1" keyTimes="0;0.270;0.460;1" calcMode="linear"/><animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.270;0.280;0.450;0.460;1"/></circle>
+<line x1="602" y1="106" x2="718" y2="106" stroke="#2b2b32" stroke-width="2" stroke-dasharray="2 6" stroke-linecap="round"/>
+<path d="M719 106 l-7 -4.5 v9z" fill="#2b2b32"/>
+<circle r="4" fill="#F4CF7E" opacity="0"><animateMotion dur="9s" repeatCount="indefinite" path="M602 106 L718 106" keyPoints="0;0;1;1" keyTimes="0;0.490;0.680;1" calcMode="linear"/><animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.490;0.500;0.670;0.680;1"/></circle>
+<rect x="64" y="60" width="92" height="92" rx="22" fill="#1b1b21" stroke="#2b2b32"/>
+<rect class="d st0" x="64" y="60" width="92" height="92" rx="22" fill="rgba(217,164,65,.10)" stroke="#F4CF7E" stroke-width="2"/>
+<rect x="86" y="93" width="48" height="26" rx="13" fill="#2b2b32"/>
+<rect class="d tog" x="86" y="93" width="48" height="26" rx="13" fill="#D9A441"/>
+<g transform="translate(99 106)"><circle class="d knob" cx="0" cy="0" r="9.5" fill="#F0EBE4"/></g>
+<text x="110" y="176" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE4">Flip it on</text>
+<text x="110" y="195" text-anchor="middle" font-size="11.5" fill="#a09a90">Settings → Training</text>
+<rect x="284" y="60" width="92" height="92" rx="22" fill="#1b1b21" stroke="#2b2b32"/>
+<rect class="d st1" x="284" y="60" width="92" height="92" rx="22" fill="rgba(217,164,65,.10)" stroke="#F4CF7E" stroke-width="2"/>
+<rect x="303" y="84" width="38" height="20" rx="7" fill="#2b2b32"/>
+<rect x="319" y="108" width="38" height="20" rx="7" fill="rgba(217,164,65,.55)"/>
+<g class="typing"><circle cx="314" cy="94" r="2.2" fill="#F0EBE4" style="animation-delay:0.00s"/><circle cx="321" cy="94" r="2.2" fill="#F0EBE4" style="animation-delay:0.20s"/><circle cx="328" cy="94" r="2.2" fill="#F0EBE4" style="animation-delay:0.40s"/></g>
+<text x="330" y="176" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE4">Work as usual</text>
+<text x="330" y="195" text-anchor="middle" font-size="11.5" fill="#a09a90">every tool call is recorded</text>
+<rect x="504" y="60" width="92" height="92" rx="22" fill="#1b1b21" stroke="#2b2b32"/>
+<rect class="d st2" x="504" y="60" width="92" height="92" rx="22" fill="rgba(217,164,65,.10)" stroke="#F4CF7E" stroke-width="2"/>
+<rect x="527" y="88" width="46" height="9" rx="4.5" fill="#2b2b32"/>
+<rect class="d bar0" x="527" y="88" width="46" height="9" rx="4.5" fill="#D9A441"/>
+<rect x="527" y="101" width="46" height="9" rx="4.5" fill="#2b2b32"/>
+<rect class="d bar1" x="527" y="101" width="46" height="9" rx="4.5" fill="#D9A441"/>
+<rect x="527" y="114" width="46" height="9" rx="4.5" fill="#2b2b32"/>
+<rect class="d bar2" x="527" y="114" width="46" height="9" rx="4.5" fill="#D9A441"/>
+<text x="550" y="176" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE4">Dataset grows</text>
+<text x="550" y="195" text-anchor="middle" font-size="11.5" fill="#a09a90">named by you</text>
+<rect x="724" y="60" width="92" height="92" rx="22" fill="#1b1b21" stroke="#2b2b32"/>
+<rect class="d st3" x="724" y="60" width="92" height="92" rx="22" fill="rgba(217,164,65,.10)" stroke="#F4CF7E" stroke-width="2"/>
+<g transform="translate(750 86) scale(.4)"><path d="M50 4 C31 28 6 42 6 61 C6 77 19 87 33 87 C41 87 46 83 48 79 L43 97 L57 97 L52 79 C54 83 59 87 67 87 C81 87 94 77 94 61 C94 42 69 28 50 4 Z" fill="#D9A441"/></g>
+<text x="770" y="176" text-anchor="middle" font-size="14" font-weight="600" fill="#F0EBE4">Your own model</text>
+<text x="770" y="195" text-anchor="middle" font-size="11.5" fill="#a09a90">pick it like any other</text>
+<g class="d chip"><rect x="686" y="16" width="168" height="26" rx="13" fill="rgba(217,164,65,.12)" stroke="rgba(217,164,65,.45)"/><text class="mono" x="770" y="33" text-anchor="middle" font-size="11" fill="#F4CF7E">websearch:latest · local</text></g>
+<text x="440" y="236" text-anchor="middle" font-size="12" fill="#a09a90">Off by default. Nothing is recorded unless you turn it on, and your datasets never leave your PC.</text>
+</svg>

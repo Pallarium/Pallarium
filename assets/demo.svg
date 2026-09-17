@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="880" height="480" role="img" aria-label="Pallarium builds a flappy bird game, opens it, tests it and grades it in one turn">
+<title>Pallarium builds a flappy bird game, opens it, tests it and grades it in one turn</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
+.d{animation-duration:14s;animation-iteration-count:infinite;animation-fill-mode:both}
+@keyframes ub{0%,0.5%{opacity:0;transform:translateY(4px)}3%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.ub{animation-name:ub}
+@keyframes r0{0%,18%{opacity:0;transform:translateY(6px)}20.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+@keyframes c0{0%,21.5%{opacity:0;transform:translateY(0px)}24%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.r0{animation-name:r0}.c0{animation-name:c0}
+@keyframes r1{0%,26%{opacity:0;transform:translateY(6px)}28.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+@keyframes c1{0%,29.5%{opacity:0;transform:translateY(0px)}32%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.r1{animation-name:r1}.c1{animation-name:c1}
+@keyframes r2{0%,38%{opacity:0;transform:translateY(6px)}40.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+@keyframes c2{0%,41.5%{opacity:0;transform:translateY(0px)}44%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.r2{animation-name:r2}.c2{animation-name:c2}
+@keyframes r3{0%,48%{opacity:0;transform:translateY(6px)}50.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+@keyframes c3{0%,51.5%{opacity:0;transform:translateY(0px)}54%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.r3{animation-name:r3}.c3{animation-name:c3}
+@keyframes r4{0%,58%{opacity:0;transform:translateY(6px)}60.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+@keyframes c4{0%,61.5%{opacity:0;transform:translateY(0px)}64%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.r4{animation-name:r4}.c4{animation-name:c4}
+@keyframes rp{0%,66%{opacity:0;transform:translateY(6px)}68.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.rp{animation-name:rp}
+@keyframes ph{0%,29%{opacity:1}31%,95%{opacity:0}98%,100%{opacity:1}}
+.ph{animation-name:ph}
+@keyframes gm{0%,30%{opacity:0;transform:translateY(0px)}32.5%,93%{opacity:1;transform:translateY(0)}97%,100%{opacity:0;transform:translateY(0)}}
+.gm{animation-name:gm}
+.pipes{animation:pipes 6.4s linear infinite}
+@keyframes pipes{from{transform:translateX(0)}to{transform:translateX(-480px)}}
+.bird{transform-box:fill-box;transform-origin:center;animation:bird 1.15s ease-in-out infinite}
+@keyframes bird{0%,100%{transform:translateY(8px) rotate(14deg)}45%{transform:translateY(-12px) rotate(-16deg)}}
+.wing{transform-box:fill-box;transform-origin:right center;animation:wing .3s ease-in-out infinite alternate}
+@keyframes wing{from{transform:scaleY(1)}to{transform:scaleY(.35)}}
+.grd{animation:grd .5s linear infinite}
+@keyframes grd{from{transform:translateX(0)}to{transform:translateX(-20px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect width="880" height="480" rx="18" fill="#0c0c0e"/><rect x=".5" y=".5" width="879" height="479" rx="18" fill="none" stroke="#2b2b32"/>
+<path d="M18 0.5h844a17.5 17.5 0 0 1 17.5 17.5v26.5H.5V18A17.5 17.5 0 0 1 18 .5z" fill="#101013"/>
+<line x1="0" y1="44.5" x2="880" y2="44.5" stroke="#2b2b32"/>
+<circle cx="24" cy="22" r="5.5" fill="#ff5f57" opacity=".85"/>
+<circle cx="42" cy="22" r="5.5" fill="#febc2e" opacity=".85"/>
+<circle cx="60" cy="22" r="5.5" fill="#28c840" opacity=".85"/>
+<g transform="translate(386 13) scale(.17)"><path d="M50 4 C31 28 6 42 6 61 C6 77 19 87 33 87 C41 87 46 83 48 79 L43 97 L57 97 L52 79 C54 83 59 87 67 87 C81 87 94 77 94 61 C94 42 69 28 50 4 Z" fill="#D9A441"/></g>
+<text x="410" y="27.5" font-size="13" font-weight="600" fill="#F0EBE4">Pallarium</text>
+<rect x="742" y="12" width="122" height="21" rx="10.5" fill="rgba(217,164,65,.12)" stroke="rgba(217,164,65,.38)"/>
+<text x="803" y="26.6" text-anchor="middle" font-size="11" fill="#F4CF7E">Auto · Sonnet</text>
+<line x1="474.5" y1="45" x2="474.5" y2="479" stroke="#2b2b32"/>
+<text x="450" y="62" text-anchor="end" font-size="10.5" letter-spacing="1.5" fill="#6f6a62">YOU</text>
+<g class="d ub"><rect x="196" y="70" width="254" height="40" rx="12" fill="rgba(217,164,65,.13)" stroke="rgba(217,164,65,.42)"/></g>
+<clipPath id="typ"><rect x="196" y="66" width="262" height="48"><animate attributeName="width" dur="14s" repeatCount="indefinite" values="0;0;262;262" keyTimes="0;0.02;0.16;1"/></rect></clipPath>
+<g class="d ub" clip-path="url(#typ)"><text x="214" y="95" font-size="14.5" fill="#F0EBE4">Build me a flappy bird game</text></g>
+<g class="d r0">
+<rect x="24" y="132" width="426" height="36" rx="10" fill="#1b1b21" stroke="#2b2b32"/>
+<rect x="32" y="137" width="26" height="26" rx="7" fill="rgba(217,164,65,.13)"/>
+<g transform="translate(37 142)"><path d="M4 1.5h6l3.5 3.5v9.5h-9.5z" fill="none" stroke="#F4CF7E" stroke-width="1.5" stroke-linejoin="round"/><path d="M6.5 8h5M6.5 11h5" stroke="#F4CF7E" stroke-width="1.4" stroke-linecap="round"/></g>
+<text x="70" y="155" font-size="13" font-weight="600" fill="#F0EBE4">Write</text>
+<text x="176" y="155" font-size="12.5" fill="#a09a90">index.html  ·  +312 lines</text>
+</g>
+<g class="d c0"><path d="M421 150.0 l3.6 3.6 L432 145.4" fill="none" stroke="#72d39a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="d r1">
+<rect x="24" y="176" width="426" height="36" rx="10" fill="#1b1b21" stroke="#2b2b32"/>
+<rect x="32" y="181" width="26" height="26" rx="7" fill="rgba(217,164,65,.13)"/>
+<g transform="translate(37 186)"><path d="M5 2.5l9 5.5-9 5.5z" fill="#F4CF7E"/></g>
+<text x="70" y="199" font-size="13" font-weight="600" fill="#F0EBE4">SandboxOpen</text>
+<text x="176" y="199" font-size="12.5" fill="#a09a90">live preview opened</text>
+</g>
+<g class="d c1"><path d="M421 194.0 l3.6 3.6 L432 189.4" fill="none" stroke="#72d39a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="d r2">
+<rect x="24" y="220" width="426" height="36" rx="10" fill="#1b1b21" stroke="#2b2b32"/>
+<rect x="32" y="225" width="26" height="26" rx="7" fill="rgba(217,164,65,.13)"/>
+<g transform="translate(37 230)"><circle cx="8" cy="8" r="6.2" fill="none" stroke="#F4CF7E" stroke-width="1.5"/><path d="M5 8.2l2 2 4-4.2" fill="none" stroke="#F4CF7E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="70" y="243" font-size="13" font-weight="600" fill="#F0EBE4">Dogfood</text>
+<text x="176" y="243" font-size="12.5" fill="#a09a90">played it  ·  0 console errors</text>
+</g>
+<g class="d c2"><path d="M421 238.0 l3.6 3.6 L432 233.4" fill="none" stroke="#72d39a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="d r3">
+<rect x="24" y="264" width="426" height="36" rx="10" fill="#1b1b21" stroke="#2b2b32"/>
+<rect x="32" y="269" width="26" height="26" rx="7" fill="rgba(217,164,65,.13)"/>
+<g transform="translate(37 274)"><path d="M1 8c2-3.8 4.6-5.6 7-5.6S13 4.2 15 8c-2 3.8-4.6 5.6-7 5.6S3 11.8 1 8z" fill="none" stroke="#F4CF7E" stroke-width="1.5"/><circle cx="8" cy="8" r="2.3" fill="#F4CF7E"/></g>
+<text x="70" y="287" font-size="13" font-weight="600" fill="#F0EBE4">VisualCritic</text>
+<text x="176" y="287" font-size="12.5" fill="#a09a90">looked at it  ·  scored 5 / 5</text>
+</g>
+<g class="d c3"><path d="M421 282.0 l3.6 3.6 L432 277.4" fill="none" stroke="#72d39a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="d r4">
+<rect x="24" y="308" width="426" height="36" rx="10" fill="#1b1b21" stroke="#2b2b32"/>
+<rect x="32" y="313" width="26" height="26" rx="7" fill="rgba(217,164,65,.13)"/>
+<g transform="translate(37 318)"><path d="M2.8 2.8v4h4" fill="none" stroke="#F4CF7E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M3.2 6.8A5.6 5.6 0 1 1 4.6 12" fill="none" stroke="#F4CF7E" stroke-width="1.6" stroke-linecap="round"/></g>
+<text x="70" y="331" font-size="13" font-weight="600" fill="#F0EBE4">Rewind</text>
+<text x="176" y="331" font-size="12.5" fill="#a09a90">restore point saved</text>
+</g>
+<g class="d c4"><path d="M421 326.0 l3.6 3.6 L432 321.4" fill="none" stroke="#72d39a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g class="d rp">
+<rect x="24" y="364" width="3" height="44" rx="1.5" fill="#D9A441"/>
+<text x="38" y="382" font-size="14" fill="#F0EBE4">Done — it’s playable in the preview.</text>
+<text x="38" y="402" font-size="12.5" fill="#a09a90">Tap or press space to flap. Every step above can be undone.</text>
+</g>
+<rect x="24" y="428" width="426" height="36" rx="12" fill="#1b1b21" stroke="#2b2b32"/>
+<text x="40" y="451" font-size="13" fill="#6f6a62">Message Pallarium…</text>
+<rect x="414" y="434" width="28" height="24" rx="7" fill="#D9A441"/>
+<path d="M422 446h11M428.5 441l4.5 5-4.5 5" fill="none" stroke="#1a1206" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="490" y="62" width="370" height="402" rx="12" fill="#0f0f12" stroke="#2b2b32"/>
+<text x="506" y="82" font-size="11.5" fill="#a09a90">sandbox  ·  flappy-bird/index.html</text>
+<g class="d ph"><text x="675" y="270" text-anchor="middle" font-size="13" fill="#6f6a62">the preview appears here</text></g>
+<clipPath id="scr"><rect x="498" y="94" width="354" height="362" rx="8"/></clipPath>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141d38"/><stop offset="1" stop-color="#3a2940"/></linearGradient>
+<g class="d gm" clip-path="url(#scr)">
+<rect x="498" y="94" width="354" height="362" fill="url(#sky)"/>
+<circle cx="583.3" cy="224.3" r="0.8" fill="#fff" opacity="0.52"/>
+<circle cx="719.0" cy="113.2" r="0.5" fill="#fff" opacity="0.63"/>
+<circle cx="590.8" cy="152.4" r="1.3" fill="#fff" opacity="0.46"/>
+<circle cx="792.8" cy="208.5" r="1.0" fill="#fff" opacity="0.32"/>
+<circle cx="722.2" cy="299.4" r="0.9" fill="#fff" opacity="0.58"/>
+<circle cx="735.0" cy="112.9" r="1.1" fill="#fff" opacity="0.52"/>
+<circle cx="605.4" cy="105.2" r="1.2" fill="#fff" opacity="0.46"/>
+<circle cx="751.6" cy="301.9" r="1.1" fill="#fff" opacity="0.66"/>
+<circle cx="638.2" cy="283.8" r="0.9" fill="#fff" opacity="0.67"/>
+<circle cx="807.6" cy="120.6" r="0.6" fill="#fff" opacity="0.35"/>
+<circle cx="837.9" cy="199.2" r="1.0" fill="#fff" opacity="0.39"/>
+<circle cx="677.5" cy="187.5" r="0.8" fill="#fff" opacity="0.51"/>
+<circle cx="704.5" cy="307.8" r="1.0" fill="#fff" opacity="0.67"/>
+<circle cx="799.7" cy="327.9" r="1.0" fill="#fff" opacity="0.32"/>
+<circle cx="801.2" cy="321.8" r="1.2" fill="#fff" opacity="0.51"/>
+<circle cx="749.8" cy="147.0" r="1.2" fill="#fff" opacity="0.51"/>
+<circle cx="599.7" cy="112.7" r="1.2" fill="#fff" opacity="0.70"/>
+<circle cx="531.0" cy="283.7" r="0.8" fill="#fff" opacity="0.32"/>
+<g class="pipes">
+<rect x="540" y="94" width="42" height="101" fill="#3faa69"/>
+<rect x="535" y="180" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="540" y="295" width="42" height="145" fill="#3faa69"/>
+<rect x="535" y="295" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="660" y="94" width="42" height="61" fill="#3faa69"/>
+<rect x="655" y="140" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="660" y="255" width="42" height="185" fill="#3faa69"/>
+<rect x="655" y="255" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="780" y="94" width="42" height="146" fill="#3faa69"/>
+<rect x="775" y="225" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="780" y="340" width="42" height="100" fill="#3faa69"/>
+<rect x="775" y="340" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="900" y="94" width="42" height="86" fill="#3faa69"/>
+<rect x="895" y="165" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="900" y="280" width="42" height="160" fill="#3faa69"/>
+<rect x="895" y="280" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1020" y="94" width="42" height="101" fill="#3faa69"/>
+<rect x="1015" y="180" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1020" y="295" width="42" height="145" fill="#3faa69"/>
+<rect x="1015" y="295" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1140" y="94" width="42" height="61" fill="#3faa69"/>
+<rect x="1135" y="140" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1140" y="255" width="42" height="185" fill="#3faa69"/>
+<rect x="1135" y="255" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1260" y="94" width="42" height="146" fill="#3faa69"/>
+<rect x="1255" y="225" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1260" y="340" width="42" height="100" fill="#3faa69"/>
+<rect x="1255" y="340" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1380" y="94" width="42" height="86" fill="#3faa69"/>
+<rect x="1375" y="165" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+<rect x="1380" y="280" width="42" height="160" fill="#3faa69"/>
+<rect x="1375" y="280" width="52" height="15" rx="3" fill="#57c784" stroke="#2a7d4c"/>
+</g>
+<rect x="498" y="440" width="354" height="16" fill="#6b4f22"/>
+<rect x="498" y="438" width="354" height="3" fill="#D9A441"/>
+<g class="grd"><rect x="498" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="518" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="538" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="558" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="578" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="598" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="618" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="638" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="658" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="678" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="698" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="718" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="738" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="758" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="778" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="798" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="818" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="838" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="858" y="445" width="10" height="4" fill="#8a6a2f"/><rect x="878" y="445" width="10" height="4" fill="#8a6a2f"/></g>
+<g transform="translate(588 250)"><g class="bird"><ellipse cx="0" cy="0" rx="16" ry="12.5" fill="#f6c945" stroke="#b8871f" stroke-width="1.5"/><g class="wing"><ellipse cx="-5" cy="2" rx="8" ry="5" fill="#fbe08a" stroke="#b8871f"/></g><circle cx="7" cy="-4" r="4.2" fill="#fff"/><circle cx="8.4" cy="-4" r="2" fill="#15151a"/><path d="M13 1l9 2.5-9 3z" fill="#f08a3c"/></g></g>
+<text x="675" y="136" text-anchor="middle" font-size="30" font-weight="800" fill="#fff" stroke="#15151a" stroke-width="3" paint-order="stroke">12</text>
+</g>
+<g class="d gm"><circle cx="838" cy="78" r="4" fill="#72d39a"/><text x="828" y="82" text-anchor="end" font-size="10.5" fill="#72d39a">live</text></g>
+</svg>
