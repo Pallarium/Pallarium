@@ -309,6 +309,24 @@ A companion extension lets it work in the browser you already use.
 
 <img src="assets/divider.svg" alt="" width="100%">
 
+## Things it made
+
+Not screenshots. Fourteen demos it wrote, running live in your browser right now.
+
+<div align="center">
+
+[<img src="https://raw.githubusercontent.com/Pallarium/labs/master/social-preview.png" alt="Pallarium Labs: 14 live demos, zero dependencies" width="100%">](https://pallarium.github.io/labs/)
+
+**[→ Open Pallarium Labs](https://pallarium.github.io/labs/)** &nbsp;·&nbsp;
+**[Source](https://github.com/Pallarium/labs)**
+
+</div>
+
+Shaders, particle fields, fluid sims and generative scenes. Every one is a single
+self contained file with no npm, no bundler and no build step. View source is the docs.
+
+<img src="assets/divider.svg" alt="" width="100%">
+
 ## Get it
 
 <table>
