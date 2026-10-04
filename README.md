@@ -70,7 +70,8 @@ and grades the result — then fixes whatever didn't hold up.
 ### Extends itself
 
 Ask for a feature and it adds one to its own interface — a colour lab, a focus
-timer, a notepad — live, with no restart and no rebuild.
+timer, a notepad — live, with no restart and no rebuild. Modules are shareable
+through GitHub, so any Pallarium can pick up what another one built. [How →](#-modules--pallarium-grows)
 
 </td>
 <td width="50%" valign="top">
@@ -123,6 +124,24 @@ Train a small local model on it and it shows up in your model list like any othe
 > **Heads up:** small local models learn the *shape* of your workflow fast, but they need plenty of
 > examples before they make good decisions on their own. Leave Training on for a few days
 > of real work before you judge the result.
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+## 🧩 Modules — Pallarium grows
+
+Modules are the biggest feature here, and they change what Pallarium can be.
+
+A module adds a new ability to Pallarium itself: a panel, a button, a tool, a background behaviour. Ask for one and Pallarium writes it, wires it in and turns it on live, with no restart.
+
+Then it gets bigger. Modules are shareable:
+
+1. Build a module on one machine.
+2. Publish it to GitHub.
+3. Install it on another Pallarium and both of them have the ability instantly.
+
+Because modules can reach out to the machine they live on, one Pallarium can be given the means to talk to another and act on it, for example a link module that lets two Pallariums message each other.
+
+You never stop at what shipped in the box. If you can describe it, it can become a module.
 
 <img src="assets/divider.svg" alt="" width="100%">
 
