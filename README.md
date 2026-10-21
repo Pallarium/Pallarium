@@ -7,7 +7,7 @@
 [![Download for Windows](https://img.shields.io/badge/Download_for_Windows-D9A441?style=for-the-badge&logo=windows&logoColor=black)](https://pallarium.org)
 [![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=white)](https://pallarium.org)
 
-![version](https://img.shields.io/badge/version-1.5.96-D9A441?style=flat-square)
+![version](https://img.shields.io/badge/version-1.5.214-D9A441?style=flat-square)
 ![Free forever](https://img.shields.io/badge/free-forever-22c55e?style=flat-square)
 ![Runs on your PC](https://img.shields.io/badge/runs-on_your_PC-3b82f6?style=flat-square)
 ![No account](https://img.shields.io/badge/no-account-a855f7?style=flat-square)
@@ -15,7 +15,7 @@
 ![Models](https://img.shields.io/badge/models-Claude_%C2%B7_GPT_%C2%B7_Gemini_%C2%B7_Grok_%C2%B7_Ollama-1b1b21?style=flat-square)
 
 **[See it work](#see-it-work)** &nbsp;·&nbsp;
-**[What's new](#new-in-1596)** &nbsp;·&nbsp;
+**[What's new](#new-in-15214)** &nbsp;·&nbsp;
 **[Every model](#one-window-every-model)** &nbsp;·&nbsp;
 **[How it thinks](#the-living-systems)** &nbsp;·&nbsp;
 **[Everything else](#everything-else)** &nbsp;·&nbsp;
@@ -91,20 +91,51 @@ it keeps them between sessions, so you're not re-explaining yourself every morni
 
 <img src="assets/divider.svg" alt="" width="100%">
 
-## New in 1.5.96
+## New in 1.5.214
 
-### 🎙️ Voice that knows who is talking
+### 🌉 The Bridge — Pallarium talks where you talk
 
-Six people in a room used to be "Guest 1" through "Guest 6". Now say *"I'm Sam"* once and
-your name sticks to your messages from then on. Short questions no longer get chopped off
-either: a normal thinking pause is a pause, not the end of your sentence.
+Point Pallarium at a desktop app like **Discord** and it joins the channel: it reads what
+people say and answers them by name, in its own voice. It can watch several rooms at once,
+or you can say *"spin me a worker that keeps this room going"* and a worker takes it over.
 
-### 🌐 Browser control that stops dropping out
+The Bridge only goes **out**. People in the room can talk to Pallarium, but nothing they
+say can reach your side: no files, no screen, no apps, no commands, however they phrase it.
+A live transcript of both sides sits in the Bridge menu, and watching a quiet room costs nothing.
 
-Chrome no longer loses the agent mid task. One shared debugger session per tab keeps
-browser automation, game control and voice steady through long sessions.
+### 🧊 3D models, no Blender needed
 
-### ↺ Rewind — break anything, undo everything
+A built-in 3D toolkit models props, weapons, buildings and vehicles for your games, and
+builds **animals that walk and run**: ask for a fox, wolf, cat or deer and you get one
+rigged, painted model with idle, walk and run. Every model is measured, not just eyeballed:
+floating parts, parts buried in walls and see-through wheels are caught and fixed, and it
+checks the result from every side. New models for a game you're already making take that
+game's own textures and colours.
+
+### 🧠 It learns from its own mistakes
+
+Tell Pallarium something went wrong and it reads back what it actually did, finds where it
+slipped, and keeps that lesson for next time. Memory is now kept **per project**, and it
+knows a rule (*"talk short"*) from a fact, so your rules keep applying instead of fading.
+
+### 🎮 Games run smooth in the preview
+
+Your pages run in their own process, so a heavy game can't freeze the app. The preview keeps
+the last minute of play (your keys and clicks, errors, freezes) so Pallarium can look back at
+what just happened, and a stutter finder names what each slow frame was spent on.
+
+### 🛟 Never stuck on a refusal
+
+If a model's safety filter declines a message, Pallarium answers it on a sibling model
+instead of leaving you stuck, and keeps a copy of what was declined so the cause can be found.
+
+### 🔐 Signed updates
+
+Pallarium only installs updates signed by its maintainer.
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+## ↺ Rewind — break anything, undo everything
 
 <img src="assets/rewind.svg" alt="A timeline of restore points; Rewind jumps the project back to the first one" width="100%">
 
@@ -113,13 +144,13 @@ Tap the Rewind icon, pick a moment, and the **whole project** goes back — file
 are cleaned up, and the rewind itself can be undone. It works on any folder, not just git
 repos, and the history survives a crash.
 
-### 🎓 Train your own model
+## 🎓 Train your own model
 
 <img src="assets/training.svg" alt="Turn on Training in Settings, work as usual, the dataset grows, and your own model appears in the model list" width="100%">
 
-Turn on **Settings → Training**, name what you're doing — `websearch`, `file-editing`,
-anything — and work as usual. Pallarium records every step it takes into that dataset.
-Train a small local model on it and it shows up in your model list like any other.
+Open **Settings → Training**, name what you're doing — `websearch`, `file-editing`,
+anything — press **Record** and work as usual. Pallarium records every step it takes.
+Press **Train**, and your small local model shows up in the model picker like any other.
 
 > **Heads up:** small local models learn the *shape* of your workflow fast, but they need plenty of
 > examples before they make good decisions on their own. Leave Training on for a few days
@@ -231,8 +262,8 @@ Hand off work that runs in parallel, each on whatever model you choose.
 </td>
 <td valign="top">
 
-**💬 Rooms**<br>
-Pallarium can hold a conversation with other AIs on the web, like Gemini.
+**💬 Rooms & Bridge**<br>
+Talks with other AIs on the web like Gemini, and with people in Discord.
 
 </td>
 <td valign="top">
@@ -265,8 +296,8 @@ Generates images through several backends, falling back when one is busy.
 <tr>
 <td valign="top">
 
-**🧊 3D with Blender**<br>
-Drives Blender in the background and shows you a live view.
+**🧊 3D models**<br>
+Its own 3D toolkit for game props and animals, or Blender with a live view.
 
 </td>
 <td valign="top">
@@ -308,7 +339,7 @@ A companion extension lets it work in the browser you already use.
 
 <div align="center">
 
-| 180k+ | 49k | 139 | 15+ | 640+ |
+| 210k+ | 70k | 200+ | 15+ | 870 |
 | :--: | :--: | :--: | :--: | :--: |
 | lines of Go | lines of interface | built-in tools | model providers | test files |
 
@@ -408,8 +439,8 @@ undoable.
 <details>
 <summary><b>Windows warned me when I ran the installer.</b></summary>
 <br>
-The installer isn't code-signed yet, so SmartScreen may show a warning. Click
-<b>More info → Run anyway</b>.
+SmartScreen can warn about downloads it hasn't seen many times yet. Click
+<b>More info → Run anyway</b>. Updates after that are checked against the maintainer's signature.
 </details>
 
 <details>
