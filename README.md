@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Pallarium. It only takes one step to make your dream. But you have to be the one to walk through the door." width="100%">
+<img src="assets/hero.svg" alt="Pallarium. The first move's yours. Pallarium is the ace up your sleeve. But you have to be the one to play it." width="100%">
 
 <br><br>
 

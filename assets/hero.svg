@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="Pallarium. It only takes one step to make your dream.">
-<title>Pallarium. It only takes one step to make your dream.</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" width="880" height="250" role="img" aria-label="Pallarium. The first move's yours.">
+<title>Pallarium. The first move's yours.</title>
 <style>
 text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
 .mono{font-family:ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace}
@@ -61,6 +61,6 @@ text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue'
 <rect x="0" y="100" width="880" height="72" fill="url(#gw)"/>
 <rect class="shine" x="0" y="100" width="230" height="72" fill="url(#sh)"/>
 </g>
-<g class="t1"><text x="440" y="202" text-anchor="middle" font-size="19" font-weight="500" fill="#F0EBE4">It only takes one step to make your dream.</text></g>
-<g class="t2"><text x="440" y="229" text-anchor="middle" font-size="15" font-style="italic" fill="#a09a90">But you have to be the one to walk through the door.</text></g>
+<g class="t1"><text x="440" y="202" text-anchor="middle" font-size="19" font-weight="500" fill="#F0EBE4">The first move's <tspan fill="#E8B75C">yours.</tspan></text></g>
+<g class="t2"><text x="440" y="229" text-anchor="middle" font-size="15" font-style="italic" fill="#a09a90">Pallarium is the ace up your sleeve. But you have to be the one to play it.</text></g>
 </svg>
